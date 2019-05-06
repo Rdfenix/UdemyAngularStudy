@@ -16,7 +16,7 @@ export class OrderComponent implements OnInit {
     { label: "Cartão de Debito", value: "DEB" },
   ]
 
-  constructor(private orderService = OrderService) { }
+  constructor(private orderService: OrderService) { }
 
   ngOnInit() {
   }
